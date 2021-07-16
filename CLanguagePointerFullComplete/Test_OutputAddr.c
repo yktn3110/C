@@ -6,10 +6,10 @@ static int file_static_variable;
 
 void func1(void)
 {
-    int func1_varialbe;
+    int func1_variable;
     static int local_static_variable;
 
-    printf("&func1_variable..%p\n", (void *)&func1_varialbe);
+    printf("&func1_variable..%p\n", (void *)&func1_variable);
     printf("&local_static_variable..%p\n", (void *)&local_static_variable);
 }
 
